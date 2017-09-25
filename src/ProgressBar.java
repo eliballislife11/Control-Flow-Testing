@@ -13,10 +13,6 @@ public class ProgressBar {
 			else sector += 180;
 		}
 		else if(y < 50) {sector = sector + 90; }
-		System.out.println(distance);
-		System.out.println(slope);
-		System.out.println(sector);
-		System.out.println(degrees);
 		if (distance < 50 && sector <= degrees) {
 			//compare distance from point to center, if less than 50 than it's within the proximity
 			//of circle, if degree of point to center line is lesser than degree, than its within angle.
